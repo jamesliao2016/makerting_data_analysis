@@ -5,6 +5,7 @@
 Analyzing the marketing data(bank-additional-full.csv), give some advice to the management on following issues:
 
 - What elements impact the consumers' purchase decision?
+- What the operations team to do to increase the sales with least cost?
 
 ## 2. Grading Standards
 
