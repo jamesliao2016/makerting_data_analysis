@@ -1,12 +1,3 @@
-Citation Request:
-  This dataset is publicly available for research. The details are described in [Moro et al., 2014]. 
-  Please include this citation if you plan to use this database:
-
-  [Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, In press, http://dx.doi.org/10.1016/j.dss.2014.03.001
-
-  Available at: [pdf] http://dx.doi.org/10.1016/j.dss.2014.03.001
-                [bib] http://www3.dsi.uminho.pt/pcortez/bib/2014-dss.txt
-
 1. Title: Bank Marketing (with social/economic context)
 
 2. Sources
@@ -43,9 +34,13 @@ Citation Request:
    Input variables:
    # bank client data:
    1 - age (numeric)
+   
    2 - job : type of job (categorical: "admin.","blue-collar","entrepreneur","housemaid","management","retired","self-employed","services","student","technician","unemployed","unknown")
+   
    3 - marital : marital status (categorical: "divorced","married","single","unknown"; note: "divorced" means divorced or widowed)
+   
    4 - education (categorical: "basic.4y","basic.6y","basic.9y","high.school","illiterate","professional.course","university.degree","unknown")
+   
    5 - default: has credit in default? (categorical: "no","yes","unknown")
    6 - housing: has housing loan? (categorical: "no","yes","unknown")
    7 - loan: has personal loan? (categorical: "no","yes","unknown")
@@ -70,3 +65,14 @@ Citation Request:
   21 - y - has the client subscribed a term deposit? (binary: "yes","no")
 
 8. Missing Attribute Values: There are several missing values in some categorical attributes, all coded with the "unknown" label. These missing values can be treated as a possible class label or using deletion or imputation techniques. 
+
+Citation Request:
+  This dataset is publicly available for research. The details are described in [Moro et al., 2014]. 
+  Please include this citation if you plan to use this database:
+
+  [Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, In press, http://dx.doi.org/10.1016/j.dss.2014.03.001
+
+  Available at: [pdf] http://dx.doi.org/10.1016/j.dss.2014.03.001
+                [bib] http://www3.dsi.uminho.pt/pcortez/bib/2014-dss.txt
+
+
