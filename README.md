@@ -1,23 +1,23 @@
-# Makerting Data Analysis: Give a marketing analysis to the sales department based on the sales data.
+# Makerting Data Analysis: Give A Marketing Analysis to the Sales Department based on the Sales Data.
 
-## Objective
+## 1. Objective
 
 Analyzing the marketing data(bank-additional-full.csv), give some advice to the management on following issues:
 
 - What elements impact the consumers' purchase decision?
 
-## Grading Standards
+## 2. Grading Standards
 
 The basic requirement is to give a complete data exploration on the sales data. A good work may include a valid data pipeline to predict users' future behavior based on their attributes. An excellent work should give a solution to increase the sales and prove your solution based on data.
 
-## Data Description
+## 3. Data Description
 
 The binary classification goal is to predict if the client will subscribe a bank term deposit (variable y).
 
 
 
    Input variables:
-   ### bank client data:
+   ### 3.1 Bank client data:
    1 - age (numeric)
    
    2 - job : type of job (categorical: "admin.","blue-collar","entrepreneur","housemaid","management","retired","self-employed","services","student","technician","unemployed","unknown")
@@ -32,7 +32,7 @@ The binary classification goal is to predict if the client will subscribe a bank
    
    7 - loan: has personal loan? (categorical: "no","yes","unknown")
    
-   ### related with the last contact of the current campaign:
+   ### 3.2 Related with the last contact of the current campaign:
    
    8 - contact: contact communication type (categorical: "cellular","telephone") 
    
@@ -42,7 +42,7 @@ The binary classification goal is to predict if the client will subscribe a bank
   
   11 - duration: last contact duration, in seconds (numeric). Important note:  this attribute highly affects the output target (e.g., if duration=0 then y="no"). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
   
-   ### other attributes:
+   ### 3.3 Other attributes:
    
   12 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
   
@@ -52,7 +52,7 @@ The binary classification goal is to predict if the client will subscribe a bank
   
   15 - poutcome: outcome of the previous marketing campaign (categorical: "failure","nonexistent","success")
   
-   ### social and economic context attributes
+   ### 3.4 Social and economic context attributes
    
   16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
   
@@ -64,7 +64,7 @@ The binary classification goal is to predict if the client will subscribe a bank
   
   20 - nr.employed: number of employees - quarterly indicator (numeric)
 
-  ### Output variable (desired target):
+  ### 3.5 Output variable (desired target):
   21 - y - has the client subscribed a term deposit? (binary: "yes","no")
 
 - Missing Attribute Values: There are several missing values in some categorical attributes, all coded with the "unknown" label. These missing values can be treated as a possible class label or using deletion or imputation techniques. 
